@@ -7,7 +7,7 @@ import Footer from "./components/common/Footer";
 import Loader from "./components/common/Loader";
 
 // UI components
-import GradientOrbs from "./components/ui/GradientOrbs";
+import GradientOrbs from "./components/UI/GradientOrbs";
 
 // Page sections
 import HeroSection from "./sections/HeroSection";
