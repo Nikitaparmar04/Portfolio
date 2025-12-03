@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Facebook } from "lucide-react";
-import ParticleBackground from "../components/ui/ParticleBackground";
+import ParticleBackground from "../components/UI/ParticleBackground";
 import { personalData } from "../data/personal-data";
 
 export default function Contact() {

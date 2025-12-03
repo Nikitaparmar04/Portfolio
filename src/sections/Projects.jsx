@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Icon } from "@iconify/react";
-import ParticleBackground from "../components/ui/ParticleBackground";
+import ParticleBackground from "../components/UI/ParticleBackground";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);

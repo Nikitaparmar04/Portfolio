@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { personalData } from "../data/personal-data";
-import ParticleBackground from "../components/ui/ParticleBackground";
+import ParticleBackground from "../components/UI/ParticleBackground";
 import nikitaImg from "../assets/nikitaimg.png";
 
 export default function About() {

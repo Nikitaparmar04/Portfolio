@@ -1,9 +1,9 @@
 import React from 'react';
 import { Github, Linkedin, Facebook, Twitter, Download, Mail } from 'lucide-react';
-import ParticleBackground from '../components/ui/ParticleBackground';
+import ParticleBackground from '../components/UI/ParticleBackground';
 import { heroStyles } from '../styles/heroStyles';
 import { personalData } from '../data/personal-data';
-import FlipWords from '../components/ui/FlipWords';
+import FlipWords from '../components/UI/FlipWords';
 
 function HeroSection() {
   return (
