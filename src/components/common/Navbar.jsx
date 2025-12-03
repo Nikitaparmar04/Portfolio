@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import ParticleBackground from "../ui/ParticleBackground";
+import ParticleBackground from "../UI/ParticleBackground";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
