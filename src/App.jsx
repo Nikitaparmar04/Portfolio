@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 // Common components
@@ -9,14 +9,14 @@ import Loader from "./components/common/Loader";
 // UI components
 import GradientOrbs from "./components/UI/GradientOrbs";
 
-// Page sections
-import HeroSection from "./sections/HeroSection";
-import About from "./sections/About";
-import Skills from "./sections/Skills";
-import Education from "./sections/Education";
-import Projects from "./sections/Projects";
-import Blogs from "./sections/Blogs";
-import Contact from "./sections/Contact";
+// Lazy loaded sections
+const HeroSection = lazy(() => import("./sections/HeroSection"));
+const About = lazy(() => import("./sections/About"));
+const Skills = lazy(() => import("./sections/Skills"));
+const Education = lazy(() => import("./sections/Education"));
+const Projects = lazy(() => import("./sections/Projects"));
+const Blogs = lazy(() => import("./sections/Blogs"));
+const Contact = lazy(() => import("./sections/Contact"));
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,13 +43,15 @@ function App() {
         {/* Main Content */}
         <div className="relative z-10">
           <Navbar />
-          <HeroSection />
-          <About />
-          <Skills />
-          <Education />
-          <Projects />
-          <Blogs />
-          <Contact />
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <HeroSection />
+            <About />
+            <Skills />
+            <Education />
+            <Projects />
+            <Blogs />
+            <Contact />
+          </Suspense>
           <Footer />
         </div>
       </div>

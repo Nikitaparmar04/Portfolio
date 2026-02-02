@@ -33,7 +33,7 @@ export default function Projects() {
       title: "Scribbly.io",
       description: "A real-time multiplayer drawing game where players sketch and guess words together. Built with WebSocket architecture for synchronized canvas updates, live chat, and smart game state management.",
       technologies: ["React", "Node.js", "Express", "Socket.io", "Canvas API", "JavaScript"],
-      github: "https://github.com/yourusername/scribbly.io",
+      github: "https://github.com/Nikitaparmar04/Scribbly",
       live: "https://scribbly.io",
       image: "/scribbly.png"
     },
@@ -41,7 +41,7 @@ export default function Projects() {
       title: "Cloud-based Hospital Report Automation",
       description: "A serverless hospital reporting system that automates document processing and secure storage using AWS. Features Lambda-based pipelines, S3 encrypted storage, and DynamoDB for scalable record management.",
       technologies: ["Node.js", "AWS Lambda", "S3", "API Gateway", "DynamoDB", "Cognito", "CloudWatch"],
-      github: "https://github.com/yourusername/hospital-reporting-system",
+      github: "https://github.com/Nikitaparmar04/MediCloud",
       live: "https://your-live-url.com",
       image: "/hospital-report.png"
     },
@@ -49,7 +49,7 @@ export default function Projects() {
       title: "YouTube Playlist Study-Time Analyzer (Chrome Extension)",
       description: "A Chrome extension that calculates total YouTube playlist duration and creates personalized study schedules. Uses YouTube API to analyze video metadata and generate progress-based timelines.",
       technologies: ["JavaScript", "Chrome Extensions API", "YouTube Data API", "Manifest V3"],
-      github: "https://github.com/yourusername/yt-playlist-analyzer",
+      github: "https://github.com/Nikitaparmar04/youtube-playlist-tracker",
       live: "https://your-live-url.com",
       image: "/playlist-analyzer.png"
     }

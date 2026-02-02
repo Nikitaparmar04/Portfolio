@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { personalData } from "../data/personal-data";
 import ParticleBackground from "../components/UI/ParticleBackground";
-import nikitaImg from "../assets/nikitaimg.png";
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -138,7 +137,7 @@ export default function About() {
             >
               <div className="relative group">
                 <img
-                  src={nikitaImg}
+                  src="/nikitaimg.png"
                   alt={personalData.name}
                   className="w-full h-auto object-cover shadow-lg transition-all duration-700 cursor-pointer rounded-lg"
                   style={{
