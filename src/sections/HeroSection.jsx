@@ -110,7 +110,7 @@ function HeroSection() {
               <div style={{ marginLeft: '1.5rem' }}>
                 <span style={{ color: '#cbd5e1' }}>role:</span>
                 {' '}<span style={{ color: '#94a3b8' }}>'</span>
-                <span style={{ color: '#e2e8f0' }}>Software Developer</span>
+                <span style={{ color: '#e2e8f0' }}>AI & Full Stack Developer</span>
                 <span style={{ color: '#94a3b8' }}>',</span>
               </div>
               <div style={{ marginLeft: '1.5rem' }}>
@@ -119,27 +119,27 @@ function HeroSection() {
               </div>
               <div style={{ marginLeft: '3rem' }}>
                 <span style={{ color: '#94a3b8' }}>'</span>
+                <span style={{ color: '#e2e8f0' }}>LangChain</span>
+                <span style={{ color: '#94a3b8' }}>', '</span>
+                <span style={{ color: '#e2e8f0' }}>OpenAI</span>
+                <span style={{ color: '#94a3b8' }}>', '</span>
+                <span style={{ color: '#e2e8f0' }}>Gemini</span>
+                <span style={{ color: '#94a3b8' }}>',</span>
+              </div>
+              <div style={{ marginLeft: '3rem' }}>
+                <span style={{ color: '#94a3b8' }}>'</span>
+                <span style={{ color: '#e2e8f0' }}>RAG</span>
+                <span style={{ color: '#94a3b8' }}>', '</span>
                 <span style={{ color: '#e2e8f0' }}>React</span>
-                <span style={{ color: '#94a3b8' }}>',  '</span>
+                <span style={{ color: '#94a3b8' }}>', '</span>
                 <span style={{ color: '#e2e8f0' }}>NextJS</span>
-                <span style={{ color: '#94a3b8' }}>',  '</span>
-                <span style={{ color: '#e2e8f0' }}>Redux</span>
                 <span style={{ color: '#94a3b8' }}>',</span>
               </div>
               <div style={{ marginLeft: '3rem' }}>
                 <span style={{ color: '#94a3b8' }}>'</span>
-                <span style={{ color: '#e2e8f0' }}>Express</span>
-                <span style={{ color: '#94a3b8' }}>',  '</span>
-                <span style={{ color: '#e2e8f0' }}>NestJS</span>
-                <span style={{ color: '#94a3b8' }}>',  '</span>
+                <span style={{ color: '#e2e8f0' }}>Node.js</span>
+                <span style={{ color: '#94a3b8' }}>', '</span>
                 <span style={{ color: '#e2e8f0' }}>MongoDB</span>
-                <span style={{ color: '#94a3b8' }}>',</span>
-              </div>
-              <div style={{ marginLeft: '3rem' }}>
-                <span style={{ color: '#94a3b8' }}>'</span>
-                <span style={{ color: '#e2e8f0' }}>Docker</span>
-                <span style={{ color: '#94a3b8' }}>',  '</span>
-                <span style={{ color: '#e2e8f0' }}>AWS</span>
                 <span style={{ color: '#94a3b8' }}>'</span>
               </div>
               <div style={{ marginLeft: '1.5rem' }}>
@@ -150,17 +150,17 @@ function HeroSection() {
                 {' '}<span style={{ color: '#94a3b8' }}>{'{'}</span>
               </div>
               <div style={{ marginLeft: '3rem' }}>
-                <span style={{ color: '#cbd5e1' }}>hardWorker:</span>
+                <span style={{ color: '#cbd5e1' }}>aiEnthusiast:</span>
                 {' '}<span style={{ color: '#64748b' }}>true</span>
                 <span style={{ color: '#94a3b8' }}>,</span>
               </div>
               <div style={{ marginLeft: '3rem' }}>
-                <span style={{ color: '#cbd5e1' }}>quickLearner:</span>
+                <span style={{ color: '#cbd5e1' }}>continuousLearner:</span>
                 {' '}<span style={{ color: '#64748b' }}>true</span>
                 <span style={{ color: '#94a3b8' }}>,</span>
               </div>
               <div style={{ marginLeft: '3rem' }}>
-                <span style={{ color: '#cbd5e1' }}>problemSolver:</span>
+                <span style={{ color: '#cbd5e1' }}>innovator:</span>
                 {' '}<span style={{ color: '#64748b' }}>true</span>
               </div>
               <div style={{ marginLeft: '1.5rem' }}>

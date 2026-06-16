@@ -2,12 +2,12 @@ export const personalData = {
   name: "NIKITA PARMAR",
   profile: '/nikitaimg.png',
   designation: [
-    "Software Developer",
-    "MERN Stack Developer",
-    "Cloud Enthusiast",
+    "AI Engineer",
+    "LLM & GenAI Developer",
+    "Full Stack Developer",
   ],
   description:
-    "I am a passionate Software Developer and MERN Stack enthusiast with a strong foundation in building scalable web applications. I love working with React, Node.js, and Express to create seamless full-stack solutions. I'm AWS certified and enjoy exploring cloud technologies to deploy and optimize applications. Recently, I've earned my AI Practitioner Certification, diving deep into the world of artificial intelligence and machine learning. I believe in continuous learning and staying updated with the latest tech trends. When I'm not coding, I'm probably exploring new frameworks, contributing to open-source projects, or brainstorming innovative solutions to real-world problems.",
+    "I am an AI Engineer specializing in Large Language Models (LLMs), LLMOps, and Generative AI — building intelligent systems that go beyond the ordinary. I design and deploy LLM-powered applications, RAG (Retrieval-Augmented Generation) pipelines, and Generative AI solutions that solve real-world problems at scale. With a strong foundation in LLMOps practices — prompt engineering, model fine-tuning, evaluation, and production monitoring — I ensure AI systems are reliable, scalable, and impactful. I'm AWS certified and hold an AI Practitioner Certification, combining cloud expertise with deep AI knowledge. On the full-stack side, I build seamless interfaces using React, Node.js, and Express to bring AI capabilities to end users. I'm obsessed with pushing the boundaries of what Generative AI can do — one model at a time.",
   email: "nikitaparmar.dev@gmail.com",
   phone: "+916260443392",
   address: "India",
